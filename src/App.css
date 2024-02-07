@@ -1,0 +1,158 @@
+.App {
+  /* text-align: center; */
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+/* header */
+header{
+  height:50px;
+  width:100%;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:sticky;
+  z-index: 999;
+  top:0;
+}
+a{
+  /* float:right; */
+  display: inline-block;
+  color:white !important;
+  text-decoration: none;
+  padding: 10px;
+}
+a:hover{
+  /* border-bottom: 2px solid aqua; */
+  cursor: pointer;
+  color: aqua !important;
+}
+#homediv{
+  height:100vh;
+  width:100%;
+  background-image: url(https://cdn.visualwilderness.com/wp-content/uploads/2017/05/white-balance.jpg);
+background-position: cover;
+background-repeat: no-repeat;
+
+}
+.img{
+  background-image: url(https://cdn.visualwilderness.com/wp-content/uploads/2017/05/white-balance.jpg);
+background-color: #282c34;
+
+}
+.heading{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading h1{
+  font-size: 40px;
+  color:white;
+}
+#about{
+  height:100vh;
+  width:100%;
+  /* background-color: rgba(172, 255, 47, 0.362); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left_side{
+  height:100vh;
+  width:50%;
+  /* background-color: rgb(139, 89, 25); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.left_side img{
+  width:500px;
+  height:500px;
+  border-radius: 10px;
+}
+.right_side{
+  height:100vh;
+  width:50%;
+  /* background-color: rgba(172, 255, 47, 0.362); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail{
+  height:500pxx;
+  width:600px;
+background-color: white;
+position: absolute;
+padding:20px;
+left:500px;
+box-shadow: 0px 0px 2px 2px gainsboro;
+border-radius: 5px;
+}
+#service{
+  /* height:100vh; */
+  width:100%;
+  background-color: #63ebb7;
+ 
+}
+#service h1{
+  text-align: center;
+  padding-top: 100px;
+}
+.serdiv{
+  height:100vh;
+  width:80%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin: auto;
+}
+Button{
+  width:120px;
+  height:40px;
+  font-weight: bold !important;
+  font-size: 13px !important;
+}
+#contact{
+  height:100vh;
+  width:100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7df0c4;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
